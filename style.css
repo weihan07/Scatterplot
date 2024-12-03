@@ -1,0 +1,37 @@
+h1, h2 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9;
+}
+
+#chart-container {
+    display: inline-block;
+    position: relative;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#tooltip {
+    position: absolute;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    pointer-events: none;
+    z-index: 10;
+}
